@@ -1,5 +1,7 @@
 """Application entry point: builds the FastAPI app.
 
+
+
 Reading order for a new engineer:  main.py -> routers/ -> services/ -> models/.
 Routers are thin (they only translate HTTP), services hold the logic, models describe data
 (Playbook ARC-01).
