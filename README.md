@@ -8,7 +8,7 @@ the service, not on set-up.
 
 ```bash
 uv lock && uv sync           # write uv.lock (commit it), then install exactly what it says
-uv run pytest                # run the tests
+uv run pytest                # run the tests uv run python -m pytest
 uv run ruff check            # lint
 uv run ruff format --check   # formatting
 uv run uvicorn app.main:app --reload   # run the service, then open http://127.0.0.1:8000/docs
